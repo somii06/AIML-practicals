@@ -1,18 +1,39 @@
-AIML Practical Notebooks — Output-Ready Version
-Assignments 1–8 contain embedded executed outputs:
-printed metrics
-tables
-graphs
-model results
-Each notebook also has a final cell that creates and downloads a ZIP of its result files.
-Assignments 9 and 10 are input-dependent:
-Assignment 9 requires the student's CCTV video.
-Assignment 10 requires the Fakeddit multimodal TSV and downloads its images.
-Therefore their genuine results cannot be embedded until those input files are provided and the notebooks are executed.
-Colab workflow
-Upload/open the individual `.ipynb` in Google Colab.
-For Assignments 1–8, the previous outputs are already visible. You can still click Run All to reproduce them.
-For Assignment 9, upload your CCTV video and run all cells.
-For Assignment 10, upload the Fakeddit TSV and run all cells.
-Use the final cell to download `Assignment_X_Results.zip`.
-Do not upgrade NumPy/Pandas/Scikit-learn in Colab; these notebooks are designed to use Colab's compatible packages.
+# AIML Practicals
+
+This repository contains 10 Artificial Intelligence and Machine Learning
+practical assignments implemented using Python and Google Colab.
+
+## Assignments
+
+1. Association between Dependent and Independent Variables
+2. K-Means Clustering
+3. Principal Component Analysis (PCA)
+4. Naive Bayes Classification
+5. K-Nearest Neighbors (KNN) Classification
+6. Linear Regression
+7. Support Vector Machine (SVM) Regression
+8. Regularization to Avoid Overfitting
+9. Object Detection from CCTV Footage
+10. Multimodal Fake News Detection
+
+## Tools and Technologies
+
+- Python
+- Google Colab
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- OpenCV
+- PyTorch
+- Torchvision
+- MobileNetV2
+
+## Dataset
+
+The datasets used in the practical assignments are mentioned
+inside their respective notebooks.
+
+## Author
+
+Somya Raj
